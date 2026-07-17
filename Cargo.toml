@@ -4,3 +4,13 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+env_logger = "0.11.11"
+pollster = "1.0.1"
+wgpu = "30.0.0"
+winit = "0.30.13"
+anyhow = "1.0.103"
+glyphon = "0.12.0"
+nix = { version = "0.31.3", features = ["term", "process"] }
+ansi-parser = "0.9.1"
+bytemuck = "1.25.1"
+ansi-escape-sequences = "0.1.0"
